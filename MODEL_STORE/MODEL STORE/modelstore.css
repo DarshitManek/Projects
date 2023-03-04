@@ -1,0 +1,239 @@
+*{
+    font-family: "Calibri";
+}
+.container
+{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1199px;
+}
+body{
+    margin:0;
+}
+.main{
+    background-color: rgb(17, 40, 114);
+}
+.navbar{
+    justify-content: space-between;
+    display: flex;
+}
+.left{
+    color: white;
+    float: left;
+}
+.left h3{
+    font-size: 30px;
+}
+.right ul{
+    list-style-type: none;
+}
+.right ul li{
+    display: inline;
+    color: white;
+    padding: 10px;
+}
+
+ul button{
+    background-color: pink;
+    border-radius: 6px;
+    width:190px;
+    border: 0px solid;
+    height:50px;
+}
+.main2{
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+.main2 h1{
+    text-align: center;
+    font-size: 18px;
+}
+ .cardslides{
+    background-color: #ffffff;
+    display: flex;
+    padding: 10px;
+    padding-left: 140px;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .card1,
+  .card2,
+  .card3,
+  .card4,
+  .card5{
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 20px;
+    width: 320px;
+    height:355px;
+    background-color: rgb(17, 40, 114);
+  }
+  .card4,.card5{
+    padding-bottom: 20px;
+  }
+  .img-card {
+    padding-top:20px;
+    position: relative;
+    text-align: center;
+    color: #001736;
+    font-size: 13px;
+    font-weight: bolder;
+  }
+  .card-img {
+    height: 200px;
+    width: 250px;
+    border-radius: 20px;
+  }
+  .cardcontent {
+    padding-left: 35px;
+    font-size:15px;
+    color:white;
+    text-align: left;
+  }
+  hr{
+    border: 0px solid rgb(172, 168, 168);
+    border-width: 1px;
+    width: 1380px;
+  }
+.main3{
+    padding-left: 140px;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+.main3container{
+    justify-content: space-between;
+    display: flex;
+}
+.leftcontent{
+    background-color: rgb(17, 40, 114);
+    color: white;
+    width: 45%;
+    height: 450px;
+    padding-left: 20px;
+    font-size:17px;
+    border-radius: 20px;
+}
+.hr2{
+    border: 0px solid rgb(173, 173, 173);
+    border-width: 1px;
+    width: 567px;
+  }
+
+.main4{
+    padding-left: 200px;
+    padding-top:100px;
+}
+.inputform{
+    background-color:rgb(17, 40, 114);
+    color: white;
+    width:85%;
+    height:460px;
+    text-align: center;
+    border-radius: 18px;
+    position: relative;
+}
+.inputform h3{
+    font-size: 20px;
+}
+.inputform h1{
+    font-size: 20px;
+}
+input[type=text]{
+    width:565px;
+    height: 50px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin:10px;
+  }
+  input[type=texted]{
+    width:280px;
+    height: 50px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input:focus,
+  textarea:focus
+{
+    outline: none;
+  }
+  input[type=submit]{
+    background-color: palevioletred;
+    width:565px;
+    height:50px;
+    display: inline-block;
+    border: 0px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+.imagemain4 img{
+    left:38%;
+    position:absolute;
+    bottom:400px;
+}
+.inputcontent{
+    padding-top: 70px;
+}
+
+.footer {
+    background-color:rgb(19, 7, 7);
+    padding: 50px 0px;
+    margin-top:100px;
+  }
+.footer-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}  
+.footer-logo {
+    padding-left: 30px;
+ }
+  .footer-link li{
+    color: white;
+    display: inline-block;
+    padding: 10px;
+}
+.footer-link ul{
+    color: white;
+    list-style-type: none;
+}
+.con {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1299px;
+    text-align: center;
+  }
+  
+  .accordion {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+  }
+  
+  .accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
